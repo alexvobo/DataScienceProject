@@ -86,23 +86,14 @@ def createBigCSV():
     df_from_each_file = ([pd.read_csv(f, encoding="windows-1252") for f in all_files if " " in os.path.basename(f)])
     print(df_from_each_file)
     concatenated_df = pd.concat(df_from_each_file, ignore_index=True)
-    concatenated_df.to_csv(os.path.join(os.pardir, "big.csv"),index=False)
+    concatenated_df.to_csv(os.path.join(os.pardir, "big.csv"), index=False)
 
 
 if __name__ == "__main__":
-
-    createBigCSV()
+    pass
+    #deleteOldCSV()
+    #cleanCSVs()
+    #createBigCSV()
     # getCSVs()
-    # cleanCSVs()
-    # deleteOldCSV()
-    #     #  soup = BeautifulSoup(open('page.html', 'r'), "html.parser")
-    #     # #soup = BeautifulSoup(requests.get(base_url+date).content, "html.parser")
-    #     # table = soup.select("tr")
-    #     # for song in table:
-    #     #     #songInfo = song.find("td", {"class": ["chart-table-track"]})
-    #     #
-    #     #     #songStreams = song.find("td", {"class": ["chart-table-streams"]}).text
-    #     #     # print(songStreams)
-    #     #     # break
-    #     #     print(song)
-    #     #     break
+
+
