@@ -1,0 +1,3 @@
+https://www.kaggle.com/gyani95/380000-lyrics-from-metrolyrics
+
+scrape billboard, use genius api to find lyrics
