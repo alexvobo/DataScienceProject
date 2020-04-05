@@ -59,9 +59,6 @@ def cleanCSVs():
                     writer.writerows(all)
                 except UnicodeEncodeError as e:
                     pass
-                finally:
-                    csvOutput.close()
-        csvInput.close()
 
 
 def deleteOldCSV():

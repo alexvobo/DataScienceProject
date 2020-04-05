@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d8b1c12-3594-4bbf-aecc-147346162702" name="Default Changelist" comment="Initial commit. getdata.py acquires the data we need to process">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8d8b1c12-3594-4bbf-aecc-147346162702" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/big.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bigout.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/bigout.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bogeys" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/getdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/getdata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/processdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/processdata.py" afterDir="false" />
     </list>
@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/getdata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+            <state relative-caret-position="582">
+              <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -28,13 +28,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/dates">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2285" />
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/processdata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-start-column="2" selection-end-line="37" selection-end-column="69" />
+            <state relative-caret-position="383">
+              <caret line="184" column="39" lean-forward="true" selection-start-line="184" selection-start-column="39" selection-end-line="184" selection-end-column="39" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#1#10#0" expanded="true" />
+                <element signature="e#142#262#0" />
+                <element signature="e#2839#4366#0" />
               </folding>
             </state>
           </provider>
@@ -92,16 +101,18 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/credentials" />
         <option value="$PROJECT_DIR$/data/data/week 0.csv" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/data/test.py" />
         <option value="$PROJECT_DIR$/data/getdata.py" />
         <option value="$PROJECT_DIR$/data/processdata.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="102" />
+    <option name="x" value="41" />
+    <option name="y" value="7" />
     <option name="width" value="2240" />
-    <option name="height" value="1174" />
+    <option name="height" value="1302" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -155,6 +166,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Alex\Documents\Data Science\Project\data" />
+      <recent name="C:\Users\Alex\Documents\Data Science\Project\data\data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alex\Documents\Data Science\Project\data" />
@@ -220,9 +232,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Alex\Documents\Data Science\Project\data\test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.processdata" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.getdata" />
         <item itemvalue="JavaScript Debug.page.html" />
       </list>
@@ -243,7 +301,7 @@
       <workItem from="1585643425757" duration="2511000" />
       <workItem from="1585810456995" duration="3000" />
       <workItem from="1586050738302" duration="5982000" />
-      <workItem from="1586056959001" duration="8459000" />
+      <workItem from="1586056959001" duration="22843000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. getdata.py acquires the data we need to process">
       <created>1586051229490</created>
@@ -259,22 +317,29 @@
       <option name="project" value="LOCAL" />
       <updated>1586056433799</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added code to obtain lyrics. Need to add chunkwise processing otherwise it would take too long.  Added code for chunkwise processing. but not implemented yet">
+      <created>1586066532287</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586066532287</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23559000" />
+    <option name="totallyTimeSpent" value="37943000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="115" y="82" width="1792" height="939" extended-state="0" />
+    <frame x="33" y="6" width="1792" height="1041" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15051903" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15051903" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994279" weight="0.32839224" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.81958765" visible="true" weight="0.28836635" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.81958765" visible="true" weight="0.33956045" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49882904" weight="0.3990878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,11 +374,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. getdata.py acquires the data we need to process" />
     <MESSAGE value="Initial commit. getdata.py navigates to spotify website and downloads the charts. It combines all weeks of data into one big csv. processdata.py will then query genius API for lyrics for each song" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit. getdata.py navigates to spotify website and downloads the charts. It combines all weeks of data into one big csv. processdata.py will then query genius API for lyrics for each song" />
+    <MESSAGE value="Added code to obtain lyrics. Need to add chunkwise processing otherwise it would take too long.  Added code for chunkwise processing. but not implemented yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to obtain lyrics. Need to add chunkwise processing otherwise it would take too long.  Added code for chunkwise processing. but not implemented yet" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project$test.coverage" NAME="test Coverage Results" MODIFIED="1586071516410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Project$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1586074168731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/Project$getdata.coverage" NAME="getdata Coverage Results" MODIFIED="1586063083880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
-    <SUITE FILE_PATH="coverage/Project$processdata.coverage" NAME="processdata Coverage Results" MODIFIED="1586064506401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/Project$processdata.coverage" NAME="processdata Coverage Results" MODIFIED="1586074694844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/page.html" />
@@ -330,20 +398,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/data/data/big.csv" />
-    <entry file="file://$PROJECT_DIR$/data/dates">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/bogeys">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/data/week1.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
@@ -399,24 +453,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/getdata.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/encodings/cp1252.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="183">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/big.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="164">
-          <caret line="8209" column="9" selection-start-line="8209" selection-start-column="2" selection-end-line="8209" selection-end-column="9" />
+        <state relative-caret-position="455">
+          <caret line="33161" selection-start-line="33161" selection-end-line="33162" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/dates">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2285" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/bigout.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="8823">
+          <caret line="519" column="55" lean-forward="true" selection-start-line="519" selection-start-column="55" selection-end-line="519" selection-end-column="55" />
+        </state>
+      </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
           <column index="0" width="100" />
@@ -428,14 +489,44 @@
           <column index="6" width="100" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="-8322">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/bogeys">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/getdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/processdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-start-column="2" selection-end-line="37" selection-end-column="69" />
+        <state relative-caret-position="383">
+          <caret line="184" column="39" lean-forward="true" selection-start-line="184" selection-start-column="39" selection-end-line="184" selection-end-column="39" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#1#10#0" expanded="true" />
+            <element signature="e#142#262#0" />
+            <element signature="e#2839#4366#0" />
           </folding>
         </state>
       </provider>
